@@ -1,21 +1,21 @@
 # EPE 3
 
-Este repositorio contiene el proyecto EPE 3, correspondiente al laboratorio práctico, del módulo 3, del ramo Desarrollo Web 1, de la carrera de Ingeniería en Informática del IPCHILE.
+Este repositorio contiene el proyecto **EPE 3**, correspondiente al **laboratorio práctico del Módulo 3** del ramo **Desarrollo Web 1**, de la carrera de **Ingeniería en Informática del IPCHILE**.
 
 ## 📌 Descripción
 
-> Este proyecto consiste en un sistema de gestion de turnos, creado en el frontend con HTML,CSS y JavaScript, y en el backend con NodeJs y su framework ExpressJs.
+> Este proyecto consiste en un sistema de gestión de turnos, desarrollado en el frontend con **HTML, CSS y JavaScript**, y en el backend con **Node.js** y su framework **Express.js**.
 
 ## 🧩 Tecnologías utilizadas
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
-- NodeJs
-- Framework ExpressJs
+- Node.js
+- Express.js
 
-## Autor
+## 👨‍🎓 Autor
 
-- Juan Carlos Romero Ochoa
-- Estudiante de Ingeniería en Informática
-- IPCHILE
+- **Juan Carlos Romero Ochoa**  
+  Estudiante de Ingeniería en Informática  
+  IPCHILE
