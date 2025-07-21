@@ -1,0 +1,42 @@
+<!-- trabajador.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Definición del conjunto de caracteres UTF-8 -->
+    <meta charset="UTF-8" />
+    <!-- Configuración de la vista para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título de la página -->
+    <title>Panel del Trabajador</title>
+    <!-- Enlace al archivo de estilos para el trabajador -->
+    <link rel="stylesheet" href="../Styles/trabajadorstyle.css" />
+    <!-- Enlace al archivo de estilos de FullCalendar -->
+    <link
+      href="https://unpkg.com/fullcalendar@5.10.1/main.min.css"
+      rel="stylesheet"
+    />
+    <!-- Inclusión de la biblioteca FullCalendar -->
+    <script src="https://unpkg.com/fullcalendar@5.10.1/main.min.js"></script>
+  </head>
+  <body>
+    <!-- Capa de superposición de fondo -->
+    <div class="background-overlay"></div>
+    <!-- Contenedor principal -->
+    <div class="container">
+      <!-- Contenido principal -->
+      <main>
+        <!-- Título principal -->
+        <h1>Mis Turnos</h1>
+        <!-- Contenedor del calendario de turnos -->
+        <div id="schedule"></div>
+      </main>
+      <!-- Pie de página con botón para cerrar sesión -->
+      <footer>
+        <button id="logoutButton">Cerrar sesión</button>
+      </footer>
+    </div>
+    <!-- Enlace al archivo de scripts para el trabajador -->
+    <script src="../Scripts/trabajador.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!-- supervisor.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Definición del conjunto de caracteres UTF-8 -->
+    <meta charset="UTF-8" />
+    <!-- Configuración de la vista para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título de la página -->
+    <title>Panel del Supervisor</title>
+    <!-- Enlace al archivo de estilos -->
+    <link rel="stylesheet" href="../Styles/supervisorstyle.css" />
+  </head>
+  <body>
+    <!-- Capa de superposición de fondo -->
+    <div class="background-overlay">
+      <!-- Contenido principal -->
+      <main>
+        <!-- Título principal -->
+        <h1>Sistema De Gestión De Turnos</h1>
+        <!-- Contenedor para la lista de empleados -->
+        <div class="tabla-empleados">
+          <!-- Título para la lista de empleados -->
+          <h2>Lista de Empleados</h2>
+          <!-- Tabla para mostrar la información de los empleados -->
+          <table id="employeeTable">
+            <!-- Encabezados de la tabla -->
+            <thead>
+              <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Rut</th>
+                <th>Rol</th>
+                <th>Turnos Asignados</th>
+                <th>Comentarios</th>
+              </tr>
+            </thead>
+            <!-- Cuerpo de la tabla -->
+            <tbody id="employeeTableBody"></tbody>
+          </table>
+        </div>
+
+        <!-- Formulario para asignar/modificar turno -->
+        <div class="asignar-turno">
+          <!-- Título del formulario -->
+          <h2>Asignar/Modificar Turno</h2>
+          <!-- Campos del formulario -->
+          <form id="shiftForm">
+            <!-- Campo para el RUT del empleado -->
+            <label for="employeeRut">RUT del Empleado:</label>
+            <input
+              type="text"
+              id="employeeRut"
+              name="employeeRut"
+              required
+            /><br />
+
+            <!-- Campos para la fecha de inicio y fin del turno -->
+            <label for="startDate">Fecha de inicio:</label>
+            <input type="date" id="startDate" name="startDate" required /><br />
+            <label for="endDate">Fecha de fin:</label>
+            <input type="date" id="endDate" name="endDate" required /><br />
+
+            <!-- Campos para el inicio y fin del turno -->
+            <label for="start">Inicio del turno:</label>
+            <input type="time" id="start" name="start" required /><br />
+            <label for="end">Término del turno:</label>
+            <input type="time" id="end" name="end" required /><br />
+
+            <!-- Campo para comentarios -->
+            <label for="comments">Comentarios:</label>
+            <textarea id="comments" name="comments"></textarea><br />
+
+            <!-- Botón para enviar el formulario -->
+            <button type="submit">Asignar/Modificar Turno</button>
+          </form>
+          <!-- Mensaje de confirmación o error -->
+          <p id="message" style="color: green"></p>
+        </div>
+      </main>
+      <!-- Pie de página con botón para cerrar sesión -->
+      <footer>
+        <button id="logoutButton">Cerrar sesión</button>
+      </footer>
+    </div>
+    <!-- Enlace al archivo de scripts -->
+    <script src="../Scripts/supervisor.js"></script>
+  </body>
+</html>

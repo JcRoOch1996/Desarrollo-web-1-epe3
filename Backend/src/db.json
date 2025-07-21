@@ -1,0 +1,66 @@
+[
+  {
+    "nombre": "Juan Carlos",
+    "Apellidos": "Romero Ochoa",
+    "Rut": "236975177",
+    "Rol": "supervisor",
+    "password": "Jc260596",
+    "Turno": [
+      {
+        "startDate": "2024-07-01",
+        "endDate": "2024-07-31",
+        "start": "08:30",
+        "end": "18:00"
+      }
+    ],
+    "Comments": "llegue temprano"
+  },
+  {
+    "nombre": "Maria Concepcion",
+    "Apellidos": "Ochoa Aguilar",
+    "Rut": "236975223",
+    "Rol": "trabajador",
+    "password": "Jc260596",
+    "Turno": [
+      {
+        "startDate": "2024-07-01",
+        "endDate": "2024-07-31",
+        "start": "08:30",
+        "end": "18:00"
+      }
+    ],
+    "Comments": "llegue temprano"
+  },
+  {
+    "nombre": "Jose Miguel",
+    "Apellidos": "Perez Guzman",
+    "Rut": "236975224",
+    "Rol": "trabajador",
+    "password": "Jc260596",
+    "Turno": [
+      {
+        "startDate": "2024-07-01",
+        "endDate": "2024-07-31",
+        "start": "08:30",
+        "end": "18:00"
+      }
+    ],
+    "Comments": "llegue temprano"
+  },
+  {
+    "nombre": "Jose Patricio",
+    "Apellidos": "Perez Gomez",
+    "Rut": "236975225",
+    "Rol": "trabajador",
+    "password": "Jc260596",
+    "Turno": [
+      {
+        "startDate": "2024-07-01",
+        "endDate": "2024-07-31",
+        "start": "08:30",
+        "end": "18:00"
+      }
+    ],
+    "Comments": "llegue temprano"
+  }
+]

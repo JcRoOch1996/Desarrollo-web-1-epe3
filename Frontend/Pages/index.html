@@ -1,0 +1,46 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Definición del conjunto de caracteres UTF-8 -->
+    <meta charset="UTF-8" />
+    <!-- Configuración de la vista para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título de la página -->
+    <title>Home Page</title>
+    <!-- Enlace al archivo de estilos -->
+    <link rel="stylesheet" href="../Styles/HomePage.css" />
+  </head>
+  <body>
+    <!-- Capa de superposición de fondo -->
+    <div class="background-overlay"></div>
+    <!-- Encabezado de la página -->
+    <header>
+      <!-- Título principal -->
+      <h1>Bienvenido a XYZ</h1>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+      <!-- Formulario de inicio de sesión -->
+      <div class="login">
+        <form id="loginForm">
+          <!-- Título del formulario -->
+          <h2>Iniciar Sesión</h2>
+          <!-- Etiqueta y campo de entrada para el RUT -->
+          <label for="rut">RUT:</label>
+          <input type="text" id="rut" name="rut" required /><br />
+          <!-- Etiqueta y campo de entrada para la contraseña -->
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" required /><br />
+          <!-- Botón de enviar para iniciar sesión -->
+          <button type="submit">Iniciar sesión</button>
+          <!-- Mensaje de error para mostrar en caso de problemas -->
+          <p id="error-message" style="color: red"></p>
+        </form>
+      </div>
+    </main>
+    <!-- Enlace al archivo de scripts -->
+    <script src="../Scripts/app.js"></script>
+  </body>
+</html>

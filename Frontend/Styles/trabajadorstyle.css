@@ -1,0 +1,201 @@
+/* trabajadorstyle.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Images/background3.jpg');
+    /* Imagenes Obtenidas De: https://es.vecteezy.com */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .background-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  
+  h1,
+  h2 {
+    color: #fff;
+  }
+  
+  .tabla-turnos {
+    margin: auto;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #shiftTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #shiftTable th,
+  #shiftTable td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+  }
+  
+  #shiftTable th {
+    background-color: #444;
+  }
+  
+  #shiftTable tbody tr:nth-child(odd) {
+    background-color: #555;
+  }
+  
+  #shiftTable tbody tr:hover {
+    background-color: #666;
+  }
+  
+  .actualizar-turno {
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  .actualizar-turno label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .actualizar-turno input[type="text"],
+  .actualizar-turno input[type="time"],
+  .actualizar-turno input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .actualizar-turno button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .actualizar-turno button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #message {
+    margin-top: 10px;
+  }
+  
+  #daysOfWeek {
+    margin-bottom: 10px;
+  }
+  
+  #daysOfWeek input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  #daysOfWeek label {
+    margin-right: 15px;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  main {
+    margin-bottom: 50px;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  #logoutButton {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #logoutButton:hover {
+    background-color: darkred;
+  }
+  
+  .actualizar-turno input[type="date"]::-webkit-inner-spin-button,
+  .actualizar-turno input[type="date"]::-webkit-calendar-picker-indicator,
+  .actualizar-turno input[type="date"]::-webkit-clear-button {
+    display: none;
+  }
+  
+  .actualizar-turno input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: transparent;
+    color: #666;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .actualizar-turno input[type="date"]::-moz-calendar-picker-indicator {
+    background-color: transparent;
+    color: #666;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  @media (max-width: 768px) {
+  
+    .tabla-turnos,
+    .actualizar-turno {
+      padding: 15px;
+    }
+  
+    #shiftTable th,
+    #shiftTable td {
+      padding: 5px;
+    }
+  
+    .actualizar-turno input[type="text"],
+    .actualizar-turno input[type="time"],
+    .actualizar-turno input[type="date"] {
+      padding: 5px;
+    }
+  
+    .actualizar-turno button[type="submit"],
+    #logoutButton {
+      padding: 5px 10px;
+    }
+  }
+  

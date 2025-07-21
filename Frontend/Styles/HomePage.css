@@ -1,0 +1,122 @@
+/* HomePage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Images/background1.jpg');
+    /* Imagenes Obtenidas De: https://es.vecteezy.com */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  
+  header {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.25rem;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .login {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .login label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  
+  .login input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login button:hover {
+    background-color: #0056b3;
+  }
+  
+  h1,
+  h2 {
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.75rem;
+    }
+  
+    .login {
+      padding: 15px;
+    }
+  
+    .login h2 {
+      font-size: 1.25rem;
+    }
+  
+    .login input,
+    .login button {
+      font-size: 0.875rem;
+    }
+  }
+  

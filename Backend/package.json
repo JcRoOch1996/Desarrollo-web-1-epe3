@@ -1,0 +1,21 @@
+{
+  "name": "epe-2",
+  "version": "1.0.0",
+  "description": "lab api rest epe 2",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "api",
+    "rest"
+  ],
+  "author": "juan romero",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.2"
+  }
+}
